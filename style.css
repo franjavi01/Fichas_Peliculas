@@ -29,3 +29,17 @@ body {
     background: blueviolet;
     scale: 1.2;
 }
+
+.navbar {
+    background: grey;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand:hover {
+    background: var(--colorPrincipal);
+    scale: 1.2;
+}
+
