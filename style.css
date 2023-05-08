@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --colorPrincipal: #47e84f;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 960px;
+}
+
 .card {
     margin: 1em;
     width: 18rem;
+    box-shadow: 1em 1em 1em grey;
+    background: var(--colorPrincipal);
+    border: 1px solid black;
+    border-radius: 1em;
+}
+
+.btn {
+    box-shadow: 5px 5px 5px black;
+    border: 1px solid black;
+    border-radius: 1em;
+
+}
+
+.btn:hover {
+    background: blueviolet;
+    scale: 1.2;
 }
