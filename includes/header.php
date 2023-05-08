@@ -40,16 +40,7 @@
         </div>
         
 </nav>
-        <!-- <button onclick="ventanaSecundaria()">Area Privada</button> -->
 
-
-        <!-- <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="btnradio" onclick="dia()" id="btnradio1" autocomplete="off" checked>
-            <label class="btn btn-outline-primary" for="btnradio1"><i class="bi bi-brightness-high-fill"></i></label>
-
-            <input type="radio" class="btn-check" name="btnradio" onclick="noche()" id="btnradio2" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btnradio2"><i class="bi bi-moon-fill"></i></label>
-        </div> -->
 
 
     </header>
