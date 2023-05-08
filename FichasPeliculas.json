@@ -1,0 +1,20 @@
+[
+  {
+    "imagen": "bi bi-film",
+    "titulo": "Películas",
+    "texto": "Listado de las mejores películas de la historia",
+    "enlace": "peliculas.php"
+  },
+  {
+    "imagen": "bi bi-people-fill",
+    "titulo": "Personajes",
+    "texto": "Listado de personas que hicieron posible la existencia del cine",
+    "enlace": "personajes.php"
+  },
+  {
+    "imagen": "bi bi-123",
+    "titulo": "Sagas",
+    "texto": "Agrupaciones de películas que siguen una misma trama a lolargo del tiempo",
+    "enlace": "sagas.php"
+  }
+]
