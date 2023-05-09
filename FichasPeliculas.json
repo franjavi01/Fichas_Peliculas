@@ -4,7 +4,7 @@
     "titulo": "Películas",
     "texto": "Listado de las mejores películas de la historia",
     "enlace": "peliculas.php"
-  },
+    },
   {
     "imagen": "bi bi-people-fill",
     "titulo": "Personajes",
@@ -14,7 +14,7 @@
   {
     "imagen": "bi bi-123",
     "titulo": "Sagas",
-    "texto": "Agrupaciones de películas que siguen una misma trama a lolargo del tiempo",
+    "texto": "Agrupaciones de películas que siguen una misma trama a lo largo del tiempo",
     "enlace": "sagas.php"
   }
 ]

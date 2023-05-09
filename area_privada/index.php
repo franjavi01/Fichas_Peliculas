@@ -55,10 +55,12 @@ else{
     <input type="submit">
     </form>
 
+    <a href="recuperacion.php">He olvidado la contraseña</a>
+
     <?php
 }   
 
 ?>
 
-<a href="recuperacion.php">He olvidado la contraseña</a>
+
 

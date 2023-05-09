@@ -32,7 +32,7 @@ $resultado = $conn->query($sql);
 
 <p>Si no quieres añadir más sagas pasa al siguiente paso</p>
 
-<h2>Creación de la tabla SAGAS</h2>
+<h2>Creación de la tabla PELICULAS</h2>
 
 <p>Datos fijos de la conexión:</p>
 <form action="crearTablaPeliculas.php">
@@ -47,5 +47,5 @@ $resultado = $conn->query($sql);
   <br>
   <label for="dbname">Nombre Base Datos: </label>
   <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly>
-  <input type="submit" value="crear tabla SAGAS">
+  <input type="submit" value="crear tabla PELICULAS">
 </form>
