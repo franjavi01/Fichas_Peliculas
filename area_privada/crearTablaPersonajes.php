@@ -9,23 +9,6 @@ if ($conn->connect_error) {
   die("Conexión fallida: " . $conn->connect_error);
 }
 
-// Consulta SQL para crear la tabla "peliculas" si no existe previamente
-// $sql = "CREATE TABLE IF NOT EXISTS peliculas (
-//   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-//   url_imagen VARCHAR(255) NOT NULL,
-//   titulo VARCHAR(255) NOT NULL,
-//   año INT(4) NOT NULL,
-//   directores VARCHAR(255),
-//   url_ver_online VARCHAR(255),
-//   url_descargar VARCHAR(255),
-//   actores VARCHAR(255),
-//   actrices VARCHAR(255),
-//   guionistas VARCHAR(255),
-//   productores VARCHAR(255),
-//   banda_sonora VARCHAR(255),
-//   saga VARCHAR(255)
-//   )";
-
 // Consulta SQL para crear la tabla "personajes" si no existe previamente
 $sql = "CREATE TABLE IF NOT EXISTS personajes (
   id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,

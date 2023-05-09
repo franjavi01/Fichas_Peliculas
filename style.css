@@ -6,7 +6,11 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    max-width: 960px;
+}
+
+footer {
+    padding-top: 20px;
+    color: white;
 }
 
 .card {
@@ -16,6 +20,10 @@ body {
     background: var(--colorPrincipal);
     border: 1px solid black;
     border-radius: 1em;
+}
+
+.cards {
+    padding-top: 50px;
 }
 
 .btn {
@@ -30,16 +38,11 @@ body {
     scale: 1.2;
 }
 
-.navbar {
-    background: grey;
-}
-
 .navbar-brand {
     color: white;
 }
 
-.navbar-brand:hover {
+.nav-item:hover {
     background: var(--colorPrincipal);
-    scale: 1.2;
 }
 

@@ -1,8 +1,5 @@
 <?php
-$servername = $_GET['servername'];
-$username = $_GET['username'];
-$password = $_GET['password'];
-$dbname = $_GET['dbname'];
+include 'conexion.php';
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);

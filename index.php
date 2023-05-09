@@ -3,7 +3,7 @@
 $miJSON = file_get_contents('FichasPeliculas.json');
 $datos = json_decode($miJSON, true);
 
-echo '<div class="container">';
+echo '<div class="container cards">';
 echo '<div class="row">';
 foreach($datos as $dato){
 echo '<div class="card text-center">';
