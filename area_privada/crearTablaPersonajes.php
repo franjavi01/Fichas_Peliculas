@@ -42,16 +42,16 @@ $conn->close();
 
 <form action="insertarPersonajes.php">
   <label for="servername">Servidor: </label>
-  <input type="text" id="servername" name="servername" value ="<?php echo $servername ?>" readonly>
+  <input type="text" id="servername" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey;">
   <br>
   <label for="username">Usuario: </label>
-  <input type="text" id="username" name="username" value ="<?php echo $username ?>" readonly>
+  <input type="text" id="username" name="username" value ="<?php echo $username ?>" readonly style="background:grey;">
   <br>
   <label for="password">Password: </label>
-  <input type="text" id="password" name="password" value ="<?php echo $password ?>" readonly>
+  <input type="text" id="password" name="password" value ="<?php echo $password ?>" readonly style="background:grey;">
   <br>
   <label for="dbname">Nombre Base Datos: </label>
-  <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly>
+  <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey;">
   <br>
   <label for="imagen">Imagen: </label>
   <input type="text" id="imagen"  name="url_imagen">
@@ -59,7 +59,7 @@ $conn->close();
   <label for="personaje">Personaje: </label>
   <input type="text" id="personaje"  name="personaje">
   <br>
-  <label for="">Genero: </label>
+  <label>Genero:</label>
   <input type="radio" id="masculino" name="genero" value="masculino"><label for="masculino">Masculino</label>
   <input type="radio" id="femenino" name="genero" value="femenino"><label for="femenino">Femenino</label>
   <br>

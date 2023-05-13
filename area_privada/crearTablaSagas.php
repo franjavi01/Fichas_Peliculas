@@ -31,16 +31,16 @@ $conn->close();
 
 <form action="insertarSagas.php">
   <label for="servername">Servidor: </label>
-  <input type="text" id="servername" name="servername" value ="<?php echo $servername ?>" readonly>
+  <input type="text" id="servername" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey;">
   <br>
   <label for="username">Usuario: </label>
-  <input type="text" id="username" name="username" value ="<?php echo $username ?>" readonly>
+  <input type="text" id="username" name="username" value ="<?php echo $username ?>" readonly style="background:grey;">
   <br>
   <label for="password">Password: </label>
-  <input type="text" id="password" name="password" value ="<?php echo $password ?>" readonly>
+  <input type="text" id="password" name="password" value ="<?php echo $password ?>" readonly style="background:grey;">
   <br>
   <label for="dbname">Nombre Base Datos: </label>
-  <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly>
+  <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey;">
   <br>
   <label for="imagen">Imagen:</label>
   <input type="text" id="imagen" name="url_imagen">
@@ -50,3 +50,4 @@ $conn->close();
   <br>
   <input type="submit" value="insertar saga">
 </form>
+

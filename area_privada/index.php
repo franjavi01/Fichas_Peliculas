@@ -28,7 +28,7 @@ if(isset($_POST['username'])){
     <input type="text" id="password" name="password"> *(Si no hay password dejar este campo en blanco)
     <br>
     <label for="dbname">Nombre Base Datos: </label>
-    <input type="text" id="dbname" name="dbname" value="2000peliculassigloXX_db" readonly>
+    <input type="text" id="dbname" name="dbname" value="2000peliculassigloXX_db" readonly style="background:grey;">
     <br>
     <input type="submit" Value="Crear Base Datos">
 </form>'; 
@@ -37,8 +37,8 @@ if(isset($_POST['username'])){
     }
 
     else{
-        echo "<script>alert('La contraseña es incorrecta')</script>";  
-            
+        echo "<script>alert('usuario y/o contraseña no coinciden')</script>";  
+        echo "<a href='index.php'> << Volver atrás</a>";    
     }
 }
 
