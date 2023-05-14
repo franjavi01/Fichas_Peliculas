@@ -46,3 +46,15 @@ footer {
     background: var(--colorPrincipal);
 }
 
+.imgFicha {
+    width: 100px;
+    height:100px;
+}
+
+#myInput {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+
