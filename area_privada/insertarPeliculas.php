@@ -41,5 +41,10 @@ $resultado = $conn->query($sql);
 
 
 
-
-<button><a href="crearTablaPeliculas.php">Insertar otra película</a></button>
+<form action="crearTablaPeliculas.php">
+  <input type="text" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey; display:none">
+  <input type="text" name="username" value ="<?php echo $username ?>" readonly style="background:grey; display:none">
+  <input type="text" name="password" value ="<?php echo $password ?>" readonly style="background:grey; display:none">
+  <input type="text" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey; display:none">
+  <input type="submit" value="insertar otra película">
+</form>

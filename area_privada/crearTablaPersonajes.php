@@ -26,33 +26,17 @@ echo "<script>alert('Tabla PERSONAJES se ha creado correctamente dentro de la ba
 echo "<script>alert('Error al crear la tabla: ' . $conn->error.' ')</script>";
 }
 
-
-
-
-
-
-
 $conn->close();
-
-
 
 ?>
 
 <h2>Insertar datos en la tabla PERSONAJES</h2>
 
 <form action="insertarPersonajes.php">
-  <label for="servername">Servidor: </label>
-  <input type="text" id="servername" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey;">
-  <br>
-  <label for="username">Usuario: </label>
-  <input type="text" id="username" name="username" value ="<?php echo $username ?>" readonly style="background:grey;">
-  <br>
-  <label for="password">Password: </label>
-  <input type="text" id="password" name="password" value ="<?php echo $password ?>" readonly style="background:grey;">
-  <br>
-  <label for="dbname">Nombre Base Datos: </label>
-  <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey;">
-  <br>
+  <input type="text" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey; display:none">
+  <input type="text" name="username" value ="<?php echo $username ?>" readonly style="background:grey; display:none">
+  <input type="text" name="password" value ="<?php echo $password ?>" readonly style="background:grey; display:none">
+  <input type="text" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey; display:none">
   <label for="imagen">Imagen: </label>
   <input type="text" id="imagen"  name="url_imagen">
   <br>
@@ -71,4 +55,13 @@ $conn->close();
   <br>
   <input type="submit" value="Insertar personaje">
 </form>
+
+<p>Si no quieres insertar datos en la tabla PERSONAJES, vete al siguiente paso:</p>
+
+<form action="crearTablaSagas.php">
+  <input type="text" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey; display:none">
+  <input type="text" name="username" value ="<?php echo $username ?>" readonly style="background:grey; display:none">
+  <input type="text" name="password" value ="<?php echo $password ?>" readonly style="background:grey; display:none">
+  <input type="text" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey; display:none">
+  <input type="submit" value="crear tabla SAGAS">
 

@@ -32,25 +32,22 @@ $resultado = $conn->query($sql);
 
 ?>
 
-<button><a href="crearTablaPersonajes.php">Insertar otro personaje</a></button>
+<form action="crearTablaPersonajes.php">
+<input type="text" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey; display:none">
+  <input type="text" name="username" value ="<?php echo $username ?>" readonly style="background:grey; display:none">
+  <input type="text" name="password" value ="<?php echo $password ?>" readonly style="background:grey; display:none">
+  <input type="text" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey; display:none">
+  <input type="submit" value="Insertar otor personaje">
+</form>
+
 
 <p>Si no quieres añadir más personajes pasa al siguiente paso</p>
 
-<h2>Creación de la tabla SAGAS</h2>
-
-<p>Datos fijos de la conexión:</p>
 <form action="crearTablaSagas.php">
-  <label for="servername">Servidor: </label>
-  <input type="text" id="servername" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey;">
-  <br>
-  <label for="username">Usuario: </label>
-  <input type="text" id="username" name="username" value ="<?php echo $username ?>" readonly style="background:grey;">
-  <br>
-  <label for="password">Password: </label>
-  <input type="text" id="password" name="password" value ="<?php echo $password ?>" readonly style="background:grey;">
-  <br>
-  <label for="dbname">Nombre Base Datos: </label>
-  <input type="text" id="dbname" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey;">
+  <input type="text" name="servername" value ="<?php echo $servername ?>" readonly style="background:grey; display:none">
+  <input type="text" name="username" value ="<?php echo $username ?>" readonly style="background:grey; display:none">
+  <input type="text" name="password" value ="<?php echo $password ?>" readonly style="background:grey; display:none">
+  <input type="text" name="dbname" value ="2000peliculassigloxx_db" readonly style="background:grey; display:none">
   <input type="submit" value="crear tabla SAGAS">
 </form>
 
