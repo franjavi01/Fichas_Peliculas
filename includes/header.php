@@ -13,6 +13,10 @@
 
 <body>
     <header>
+        <div class="cabecera">
+        <h1 class="text-center">2000 películas siglo XX</h1>
+        <h3 class="text-center">Si eres amante del cine clásico, este es tu sitio</h3>
+        </div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary z-1 position-fixed container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
             <span class="navbar-toggler-icon"></span>
