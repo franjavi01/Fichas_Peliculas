@@ -14,18 +14,39 @@
 <body>
     <header>
         <div class="cabecera">
-        <h1 class="text-center">2000 películas siglo XX</h1>
-        <h3 class="text-center">Si eres amante del cine clásico, este es tu sitio</h3>
+            <h1 class="text-center">2000 películas siglo XX</h1>
+            <h3 class="text-center">Si eres amante del cine clásico, este es tu sitio</h3>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary z-1 position-fixed container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        
+        <ul class="search navbar navbar-expand-lg navbar-dark bg-primary position-fixed z-1  container-fluid">
+            <li>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                    <button class="btn btn-light" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+            </li>
+            <li>
+                <div class="container-fluid">
+                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                        <input type="radio" class="btn-check" name="btnradio" onclick="dia()" id="btnradio1" autocomplete="off" checked>
+                        <label class="btn btn-outline-light" for="btnradio1"><i class="bi bi-brightness-high-fill"></i></label>
+
+                        <input type="radio" class="btn-check" name="btnradio" onclick="noche()" id="btnradio2" autocomplete="off">
+                        <label class="btn btn-outline-light" for="btnradio2"><i class="bi bi-moon-fill"></i></label>
+                    </div>
+                </div>
+                </div>
+            </li>
+        </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary position-fixed z-1  container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="opciones">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="index.php">Home</a>
+                            <a class="navbar-brand" href="index.php"><img src="./imagenes/logo.jpg" class="logo" alt="logo"></a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -48,17 +69,7 @@
                             <a class="navbar-brand" href="area_privada" target="_blank" onclick="ventanaSecundaria()">Area Privada</a>
                         </div>
                     </li>
-                    <li>
-                        <div class="container-fluid">
-                            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                                <input type="radio" class="btn-check" name="btnradio" onclick="dia()" id="btnradio1" autocomplete="off" checked>
-                                <label class="btn btn-outline-warning" for="btnradio1"><i class="bi bi-brightness-high-fill"></i></label>
 
-                                <input type="radio" class="btn-check" name="btnradio" onclick="noche()" id="btnradio2" autocomplete="off">
-                                <label class="btn btn-outline-warning" for="btnradio2"><i class="bi bi-moon-fill"></i></label>
-                            </div>
-                        </div>
-                    </li>
 
                 </ul>
 
@@ -66,7 +77,7 @@
 
 
         </nav>
-
+       
 
 
     </header>

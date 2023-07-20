@@ -29,6 +29,26 @@ body {
     color: yellow;
  }
 
+.search {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.search li {
+    list-style: none;
+}
+
+.btn-light:hover {
+    background: var(--colorPrincipal);
+    scale: 1.2
+}
+
+nav {
+    margin-top: 50px;
+}
+
 footer {
     padding-top: 20px;
     color: white;
@@ -47,20 +67,24 @@ footer {
     padding-top: 50px;
 }
 
-.btn {
+.btn-primary {
     box-shadow: 5px 5px 5px black;
     border: 1px solid black;
     border-radius: 1em;
 
 }
 
-.btn:hover {
+.btn-primary:hover {
     background: blueviolet;
     scale: 1.2;
 }
 
 .navbar-brand {
     color: white;
+}
+
+.logo {
+    width: 5vh;
 }
 
 .nav-item:hover {
@@ -75,6 +99,15 @@ footer {
 #myInput {
     margin-top: 100px;
     margin-bottom: 20px;
+}
+
+.btn-check:hover {
+    background: var(--colorPrincipal);
+    scale: 1.2
+}
+
+.primerParrafo {
+    margin-top: 150px;
 }
 
 
