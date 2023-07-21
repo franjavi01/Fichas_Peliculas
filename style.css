@@ -29,26 +29,6 @@ body {
     color: yellow;
  }
 
-.search {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-}
-
-.search li {
-    list-style: none;
-}
-
-.btn-light:hover {
-    background: var(--colorPrincipal);
-    scale: 1.2
-}
-
-nav {
-    margin-top: 50px;
-}
-
 footer {
     padding-top: 20px;
     color: white;
@@ -79,17 +59,10 @@ footer {
     scale: 1.2;
 }
 
-.navbar-brand {
-    color: white;
-}
-
 .logo {
-    width: 5vh;
+    width: 5em;
 }
 
-.nav-item:hover {
-    background: var(--colorPrincipal);
-}
 
 .imgFicha {
     width: 100px;
@@ -101,13 +74,15 @@ footer {
     margin-bottom: 20px;
 }
 
-.btn-check:hover {
-    background: var(--colorPrincipal);
-    scale: 1.2
+
+.lineas {
+    flex-direction: column;
 }
 
-.primerParrafo {
-    margin-top: 150px;
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 
