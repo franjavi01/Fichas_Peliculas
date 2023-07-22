@@ -1,8 +1,8 @@
 [
   {
-    "imagen": "bi bi-film",
-    "titulo": "Películas",
-    "texto": "Listado de las mejores películas de la historia",
+    "imagen": "decadas.jpg",
+    "titulo": "Décadas",
+    "texto": "Listado de películas clásificadas por periodos de 10 años",
     "enlace": "peliculas.php"
     },
   {

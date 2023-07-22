@@ -12,20 +12,21 @@
 </head>
 
 <body>
-    <header>
-        <div class="cabecera">
-            <h1 class="text-center">2000 películas siglo XX</h1>
-            <h3 class="text-center">Si eres amante del cine clásico, este es tu sitio</h3>
-        </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary z-1  container-fluid">
-        <a class="navbar-brand" href="index.php"><img src="./imagenes/logo.jpg" class="logo" alt="logo"></a>
+<div class="cabecera container-fluid">
+    <a href="./index.php">
+        <h1 class="text-center">2000 películas siglo XX</h1>
+        <h3 class="text-center">Si eres amante del cine clásico, este es tu sitio</h3>
+    </a>
+</div>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary z-1  container-fluid">
+        <a class="navbar-brand" href="./index.php"><img src="./imagenes/logo.jpg" class="logo" alt="logo"></a>
         <div class="lineas">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
             <div class="collapse navbar-collapse" id="opciones">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav linea1">
                     <li class="nav-item">
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
@@ -33,27 +34,25 @@
                         </form>
                     </li>
                     <li class="nav-item">
-                    <div class="container-fluid">
-                    <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                        <input type="radio" class="btn-check" name="btnradio" onclick="dia()" id="btnradio1" autocomplete="off" checked>
-                        <label class="btn btn-outline-light" for="btnradio1"><i class="bi bi-brightness-high-fill"></i></label>
-
-                        <input type="radio" class="btn-check" name="btnradio" onclick="noche()" id="btnradio2" autocomplete="off">
-                        <label class="btn btn-outline-light" for="btnradio2"><i class="bi bi-moon-fill"></i></label>
-                    </div>
+                        <div class="container-fluid btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" onclick="dia()" id="btnradio1" autocomplete="off" checked>
+                            <label class="btn btn-outline-light" title="Modo claro" for="btnradio1"><i class="bi bi-brightness-high-fill"></i></label>
+                            <input type="radio" class="btn-check" name="btnradio" onclick="noche()" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-light" title="Modo oscuro" for="btnradio2"><i class="bi bi-moon-fill"></i></label>
+                        </div>
                     </li>
                 </ul>
             </div>
             <div class="collapse navbar-collapse" id="opciones">    
-                <ul class="navbar-nav">
+                <ul class="navbar-nav linea2">
                     <li class="nav-item">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="peliculas.php">Películas</a>
+                            <a class="navbar-brand" href="decadas.php">Décadas</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="personajes.php">Personajes</a>
+                            <a class="navbar-brand" href="biografias.php">Biografías</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -63,18 +62,27 @@
                     </li>
                     <li class="nav-item">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="area_privada" target="_blank" onclick="ventanaSecundaria()">Area Privada</a>
+                            <a class="navbar-brand" href="https://2000cancionessigloxx.com/">2000 canciones siglo XX</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="https://tienda.2000peliculassigloxx.com/">Tienda AMAZON</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="contacto.php">Contacto</a>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="area_privada" target="_blank" onclick="ventanaSecundaria()">Area Privada</a>
+                        </div>
+                    </li> -->
                 </ul>
             </div>
-            </div>
-
-
-
-        </nav>
-       
-
-
-    </header>
-    <main>
+        </div>
+    </nav>
+</header>
+<main>
